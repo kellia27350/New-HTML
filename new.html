@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.explore-btn {
+    background-color: #00b300;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.explore-btn:hover {
+    background-color: #009900;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>WELCOME</h1>
+        <p>I'm Kelliia, currently in first year, dealing with software engineering.<br>
+        I'm studying hard to dive deeper into coding and software developing.</p>
+        <button class="explore-btn">Explore</button>
+
+        <div class="image-box">
+            <img src="image1.jpg" alt="First Image">
+            <img src="image2.jpg" alt="Second Image">
+        </div>
+    </div>
+</body>
+</html>
